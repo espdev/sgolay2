@@ -4,7 +4,7 @@ A Savitzky–Golay filter is a digital filter that can be applied to a set of di
 
 This code implements two-dimensional Savitzky-Golay filter that can be used for smoothing surfaces or images [1, 2].
 
-# The example of usage
+## The example of usage
 
 ```python
 import numpy as np
@@ -37,7 +37,7 @@ plt.show()
 <img width="592" alt="sgolay2_surface" src="https://user-images.githubusercontent.com/1299189/54092147-bc511b00-4399-11e9-9be2-c44ce697161e.png">
 
 
-# References
+## References
 
 1. Ratzlaff, Kenneth L.; Johnson, Jean T. (1989). "Computation of two-dimensional polynomial least-squares convolution smoothing integers". Anal. Chem. 61 (11): 1303–5. doi:10.1021/ac00186a026.
 2. Krumm, John. "Savitzky–Golay filters for 2D Images". Microsoft Research, Redmond.
