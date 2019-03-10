@@ -2,7 +2,7 @@
 
 A Savitzky–Golay filter is a digital filter that can be applied to a set of digital data points for the purpose of smoothing the data, that is, to increase the precision of the data without distorting the signal tendency. ([wikipedia](https://en.wikipedia.org/wiki/Savitzky–Golay_filter))
 
-This code implements two-dimensional Savitzky-Golay filter that will be used for smoothing surfaces or images [1, 2].
+This code implements two-dimensional Savitzky-Golay filter that can be used for smoothing surfaces or images [1, 2].
 
 # The example of usage
 
