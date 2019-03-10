@@ -20,7 +20,7 @@ x, y = np.mgrid[-5:6:.5, -5:6:.5]
 z = y * np.sin(x) + x * np.cos(y)
 zn = z + np.random.randn(*x.shape) * 2.
 
-zs = sgolay2.SGolayFilter2(9, 3)(zn)
+zs = sgolay2.SGolayFilter2(window_size=9, poly_order=3)(zn)
 
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
