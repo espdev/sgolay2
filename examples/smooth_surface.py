@@ -11,7 +11,7 @@ import sgolay2
 def make_surface():
     x, y = np.mgrid[-5:6:.5, -5:6:.5]
     z = y * np.sin(x) + x * np.cos(y)
-    zn = z + + np.random.randn(*x.shape) * 2.
+    zn = z + np.random.randn(*x.shape) * 2.
     return x, y, z, zn
 
 
